@@ -3,18 +3,20 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 2주차 실습  
-  //연습 코딩   
+// 3주차 이론   
+  //변수_예제  
     
 
 int main(void)
 {
-   int a, b; // 정수 변수 a,b 의 선언
-   a = 10;
-   b = 20;
-    
-   printf("%d + %d = %d \n", a, b, a+b); // 두 수의 합을  출력  
-    
-    return 0;
+   float radius, area; // 변수 선언  
+   
+   radius = 10.0; // 상수 - 반지름  선언  
+   
+   area = 3.141592 * radius * radius; // 상수 - 원의 넓이 선언  
+   
+   printf("원의 면적 : %f\n", area); // 원의 넓이를 출력  
+   
+   return 0; 
     
  } 
