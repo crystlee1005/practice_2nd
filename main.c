@@ -9,15 +9,15 @@
 	 /* 두개의 숫자의 합을 계산하는 프로그램 */ 
 int main(void)
 {
-	int x;
-	int y;
-	int sum;
+	int x; //더하기 첫번째 숫자 
+	int y; //더하기 두번째 숫자 
+	int sum; 
 	
 	x = 100;
 	y = 200;
 	sum = x + y;
 	
-    printf("두수의 합 : %d\n", sum);
+    printf("두수의 합 : %d\n", sum); // 두수의 합을 출력 
     
     return 0;
     
