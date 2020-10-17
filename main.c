@@ -3,15 +3,20 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 3주차 이론   
-  //변수_사이즈 알아보기   
+// 3주차 실습2
+  // 한자리 숫자를 char 형태로 받아서 숫자형태로 출 
     
 
 int main()
 {
-  int x;
-  printf("bytes of int : %i \n", sizeof(int));
-
+  char c;
+  int i; 
+  printf("input a number : ");
+  scanf("%c", &c );
+  
+  i = c - '0';
+  printf("The input number is : %i ", i);
+ 
   
   
   return 0; 
