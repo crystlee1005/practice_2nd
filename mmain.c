@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+//4주차 실습
+ 
+int main(int argc, char *argv[]) {
+	
+	int a, b;
+	
+	printf("input two integers : ");
+	scanf("%i %i", &a, &b);
+	
+  printf("+ result is %i \n", (a+b));
+  printf("- result is %i \n", (a-b));
+  printf("* result is %i \n", (a*b));
+  printf("/ result is %i \n", (a/b));
+  printf("%% result is %i \n", (a%b));
+
+	return 0;
+}
