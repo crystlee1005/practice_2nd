@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//4주차 실습3, 분초를 계산  
+//4주차 실습4, 윤년을 계산  
  
 int main(int argc, char *argv[]) {
 	
