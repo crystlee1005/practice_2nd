@@ -3,18 +3,21 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 3주차 실습3
-  // 알파벳문자를 입력받아서 그 다음 문자를 출력  
+// 3주차 실습4 
+  // 나눗셈 프로그램  
     
 
 int main()
 {
-  char alpha;
+  int a, b; 
   
-  printf("enter a character : ");
-  scanf("%c", &alpha );
+  printf("분자를 입력하세요  : ");
+  scanf("%i", &a );
   
-  printf("The next character is : %c ", alpha + 1);
+  printf("분모를 입력하세요 : ");
+  scanf("%i", &b );
+  
+  printf("나누기의 결과는 %f", a/(float)b ); 
  
   
   
