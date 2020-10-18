@@ -3,19 +3,18 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 3주차 실습2
-  // 한자리 숫자를 char 형태로 받아서 숫자형태로 출 
+// 3주차 실습3
+  // 알파벳문자를 입력받아서 그 다음 문자를 출력  
     
 
 int main()
 {
-  char c;
-  int i; 
-  printf("input a number : ");
-  scanf("%c", &c );
+  char alpha;
   
-  i = c - '0';
-  printf("The input number is : %i ", i);
+  printf("enter a character : ");
+  scanf("%c", &alpha );
+  
+  printf("The next character is : %c ", alpha + 1);
  
   
   
