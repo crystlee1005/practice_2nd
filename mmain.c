@@ -2,18 +2,22 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//4주차 실습6, 시분초를  계산  
+//5주차 예제- 순환문 do while 문  
+ //메뉴선택 프로그램  
  
-int main(int argc, char *argv[]) {
+int main (void)
+{
+    int i=0; //초기값 설 정  
+    
+    do
+    {
+    	printf("1-새로만들기\n");
+    	printf("2-파일 열기 \n");
+    	printf("3-파일 닫기 \n");
+		printf("하나를 선택하세요. \n");
+		scanf("%i", &i);
+		
+	} while(i<1 || i>3);
 	
-	int second;
-	
-	printf("input the second : ");
-	scanf("%i", &second);
-	
-
-    printf("the time is %i : %i : %i \n", (second/3600), (second%3600/60), (second%60));
-  
-
-	return 0;
+	 	
 }
