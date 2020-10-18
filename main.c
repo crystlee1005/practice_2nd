@@ -3,23 +3,25 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 3주차 실습4 
-  // 나눗셈 프로그램  
+// 4주차 실습1  
+  // 산술 연산자 활용   
     
 
 int main()
 {
-  int a, b; 
+  int x, y, z, m;
+  int a, b, c;
   
-  printf("분자를 입력하세요  : ");
-  scanf("%i", &a );
+  x = 1;
+  z = 2;
+  a = 3;
+  b = 4;
+  c = 5;
   
-  printf("분모를 입력하세요 : ");
-  scanf("%i", &b );
+  y=a*x*x + b*x + c;
+  m = (x+y+z)/3;
   
-  printf("나누기의 결과는 %f", a/(float)b ); 
- 
-  
+  printf("y= %i, m= %i", y, m); 
   
   return 0; 
   
