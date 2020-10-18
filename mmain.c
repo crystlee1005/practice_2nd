@@ -2,25 +2,23 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//5주차 실습 3-입력된 문자열에서 숫자의 개수 세 기  
+//5주차 실습 4- 덧셈 프로그램   
 
  
 int main (void)
 {
-   char c,i;
-   int num=0;
-   printf("input a string :");
-
-   while( (c = getchar() ) != '\n')   // 조건식 내에 한글자씩 받는 코드  
-     {
-
-		  if(i= c>= '0' && c<='9' ) // 입력된 c가 ASCII 문자 상에서 숫자 0~9에 해당하는지를 관계식으로 비교 
-	      {   num++;
-	      }                          //문자에 숫자가 포함될 때마다 num을 증감하는 식  
-	 }
-
-   printf(" the number of digits is %i.\n", num);
-
+    int number, sum, i;
+    sum=0;  //더하기 결과를 저장하는 변수 , 초기값=0  
+    
+    printf("input a number : ");
+    scanf("%i", &number); //정수를 입력받음  
+    
+    for(i=1; i<=number; i++) //1부터 입력 정수까지 증가  
+    {
+    	sum+=i; // 1부터 입력정수까지 더함  
+    	
+	}
+    printf("the result is %i", sum); //결과값을 출력  
 	return 0;
   
    }
