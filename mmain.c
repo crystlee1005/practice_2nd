@@ -2,20 +2,20 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//6주차 예제- 반환값       
-int square(int n);
+//6주차 실습1- 함수화 하기 
+void star()
+{   int i;
+	for(i=0; i<10; i++)
+	printf("*  ");
+}
 
 int main(void)
 {
-	int result;
-	result = square(5);
-	printf("%d", result);
+	star();
+	star();
+	star();
 	
-}
-
-int square(int n) 
-{
-	return(n*n); //호출된 함수를 호출된 위치로 반환  
-}
-
-	 	
+	return 0;
+	
+	
+	}	
