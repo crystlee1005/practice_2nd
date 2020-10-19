@@ -6,13 +6,16 @@
 
 int main(void)
 {
-	int i;
+	 int i;
 	
 	for (i=0; i<5; i++)
 	{
-		int temp = 1;
+		static int temp = 1;
 		printf("temp = %d\n", temp);
 		temp++;
+		
+		 
 	}
 	return 0;
+	//12345 만나온다  
 }
