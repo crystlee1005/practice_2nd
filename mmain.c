@@ -2,16 +2,20 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//6주차 예제-  함수정의예제, 정수의 제곱을 계산하는 함수      
+//6주차 예제- 반환값       
+int square(int n);
 
 int main(void)
 {
+	int result;
+	result = square(5);
+	printf("%d", result);
 	
+}
 
-int square( int n)
+int square(int n) 
 {
-	return(n*n);
+	return(n*n); //호출된 함수를 호출된 위치로 반환  
 }
-}
-	
+
 	 	
