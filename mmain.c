@@ -2,20 +2,23 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//7주차 실습2
+//7주차 실습3
 
-int main(void)
+int inc(int counter)
 {
-	 int i;
+	counter++;
+	return counter;
+}
+int main(void)
+
+{
+  int i;
+	 i=10;
+
 	
-	for (i=0; i<5; i++)
-	{
-		static int temp = 1;
-		printf("temp = %d\n", temp);
-		temp++;
-		
-		 
-	}
-	return 0;
-	//12345 만나온다  
+	printf("함수 호출 전 i=%d\n", i);
+	 inc(i);
+	printf("함수 호출 후 i=%d\n", inc(i) );
+	
+	return 0; 
 }
