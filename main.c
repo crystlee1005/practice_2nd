@@ -3,25 +3,22 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-// 4주차 실습1  
-  // 산술 연산자 활용   
+// 4주차 실습2   
+  // 사칙 연산 계산기  
     
 
 int main()
 {
-  int x, y, z, m;
-  int a, b, c;
+  int a, b;
+  print("input two integers : ");
+  scanf("%i %i", &a, &b);
   
-  x = 1;
-  z = 2;
-  a = 3;
-  b = 4;
-  c = 5;
+  printf("+ result is %i \n", (a+b));
+  printf("- result is %i \n", (a-b));
+  printf("* result is %i \n", (a*b));
+  printf("/ result is %i \n", (a/b));
+  printf("%% result is %i \n", (a%b));
   
-  y=a*x*x + b*x + c;
-  m = (x+y+z)/3;
-  
-  printf("y= %i, m= %i", y, m); 
   
   return 0; 
   
